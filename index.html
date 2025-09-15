@@ -1,0 +1,95 @@
+<!doctype #html> 
+<hmtl lang="fi">
+    <style> 
+        body {
+          background: black;
+          color: white;
+          font-family: Arial, sans-serif;
+          padding: 20px;
+          line-height: 1.5;
+          text-align: center;
+        }
+        h1, h2 {
+          color: gold;
+          margin-bottom: 20px;
+        }
+        nav {
+          background: #222;
+          padding: 10px;
+          border-radius: 5px;
+          margin-bottom: 20px;
+        }
+        nav a {
+          color: gold;
+          text-decoration: none;
+          margin: 0 10px;
+          font-weight: bold;
+        }
+        nav a:hover {
+          color: white;
+          text-decoration: underline;
+        }
+        section#3 img {
+          max-width: 200px;
+          height: auto;
+          margin: 10px auto;
+          display: block;
+          border-radius: 8px;
+          box-shadow: 0 0 8px gold;
+        }
+        footer {
+          background: #222;
+          color: #ddd;
+          padding: 15px 10px;
+          border-radius: 5px;
+          margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+          nav a {
+            display: block;
+            margin: 8px 0;
+          }
+          body {
+            padding: 10px;
+          }
+        }
+        </style>
+<html>
+<h1>Parturikampaamo Aurora</h1>
+<nav>
+    <a href="#1">etusivu</a> |
+    <a href="#2">Yhteystiedot</a> |
+    <a href="#3">Palvelut</a> |
+    <a href="#4">Ajanvaraus</a>
+ </nav>
+ <section id="1">
+    <h2>Etusivu</h2>
+    <p>Tervetuloa parturikampaamo Auroraan!</p>
+</section>
+ <section id="3">
+<p style="font-size: 30px;"> Palvelut </p>
+<p style="font-size: 20px;"> Hiusten leikkuu </p>
+<img src="1.webp" width="400" height="250">
+<p style="font-size: 20px;"> Hiusten värjäys </p>
+<img src="2.webp" width="400" height="250"> 
+<p style="font-size: 20px;"> Parran ajo ja siistintä</p>
+<img src="3.webp" width="400" height="250">
+</section>
+<section id="4"> 
+<p style="font-size: 30px;"> Ajanvaraus </p>
+<input type="text" id="name" name="name" required>
+<label for="name">Sposti:</label><br>
+<input type="text" id="name" name="name" required>
+<label for="name">päivä:</label><br>
+<input type="text" id="name" name="name" required>
+<label for="name">nimi:</label><br>
+<button type="lähetä">lähetä</button>
+</section>
+<footer>
+<section id="2"> 
+    <p>Puhelinnumero +358 044 1234567</p>
+    <p>Sijainti: Kampajatie 67, 123456 Helsinki</p>
+    <p>Sähköposti Parturikampaamo@aurora.com</p>
+</section>
+</footer>
+</html>
